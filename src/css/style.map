@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"button {\n    color: red;\n    border: 1px; }\n\n\n\n\n"
+	],
+	"names": [],
+	"mappings": "oFAAA,AAAA,MAAM,AAAC,CACH,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,GAAG,CAAG"
+}

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Доставка свежих морепродуктов по владивостоку. Отправка морепродуктов по всей России">
     <title>i-Crab</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -15,56 +15,174 @@
     <header>
         <div class="container">
             <div class="row">
-
-                <div class="header_Logo col-2">
-                    <a href="#"> <img src="img/header/Logo.svg" alt="logo"></a>  
-                </div>
-             
-                <nav class="header_nav col-5">
-                    <a class="nav-link active" href="#">Главная |</a>
-                    <a class="nav-link" href="#">Продукция |</a>
-                    <a class="nav-link" href="#">Написать нам |</a>
-                    <a class="nav-link" href="#">Доставка</a>
-                    <br>                
-                    <a class="nav-link" href="#">Отзывы |</a>
-                    <a class="nav-link" href="#">Мы в соцсетях</a>
-                </nav>
-
-                <div class="header_contacts col-2">
-                    <a href="tel:89940000054" class="tel">8 (994) 000-00-54</a> <br>
-                    <a href="tel:89841980020" class="tel">8 (984) 198-00-20</a>
+                <div class="col-md-2 p-0">
+                    <div class="header_Logo">
+                        <a href="#"> <img src="img/header/Logo.svg" alt="logo"></a>  
+                    </div>
                 </div>
 
-                <div class="header_btn col-3">
-                    <button class="btn_call_me">Позвоните мне</button>
-                </div>       
+                <div class="col-md-5">
+                    <nav>
+                        <ul class="header_menu">
+                            <li class="header_menu_item"><a class="header_menu_link active" href="#">Главная</a></li>
+                            <li class="header_menu_item"><a class="header_menu_link" href="#">Продукция</a></li>
+                            <li class="header_menu_item"><a class="header_menu_link" href="#">Написать нам</a></li>
+                            <li class="header_menu_item"><a class="header_menu_link" href="#">Доставка</a>  </li>
+                            <li class="header_menu_item"><a class="header_menu_link" href="#">Отзывы</a></li>
+                            <li class="header_menu_item"><a class="header_menu_link" href="#">Мы в соцсетях</a></li>
+                        </ul>
+                    </nav>
+                </div>
 
+                <div class="col-md-2 p-0">
+                    <div class="header_contacts">
+                        <a href="tel:89940000054" class="tel">8 (994) 000-00-54</a> <br>
+                        <a href="tel:89841980020" class="tel">8 (984) 198-00-20</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 p-0">
+                    <div class="header_call_me">
+                        <button class="btn_white">Позвоните мне</button>
+                    </div>    
+                </div>
 
-
+                <img class="header_wave" src="img/header/wave.svg" alt="wave">
             </div>
         </div>     
     </header>
 
-    <section class="first_display">
+    <section class="greeting">
         <div class="container">
             <div class="row">
-                <div class="first_display_title col-12">
+
+                <div class="col-md-9">
+                    <div class="greeting_title">
                         <h1>КРАБ, ИКРА И МОРЕПРОДУКТЫ<br>С ДОСТАВКОЙ
-                        <span>по Владивостоку и всей России.</span>
-                        </h1>   
-                    <div class="first_display_title_fish">
-                        <img src="img/background/left_fish.svg" alt="fish">
-                    </div> 
+                        <span>по Владивостоку и всей России.</span></h1>   
+                    </div>
                 </div>
-           
+
+                <img class="greeting_decor" src="img/background/left_fish.svg" alt="fish">       
              </div>
          </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img class="greeting_main_image" src="img/Crabs_main_img.png" alt="crab_food">
+                </div>
+
+                <div class="col-md-6 p-0">
+                    <div class="greeting_text">
+                        <h3>Наисвежайшие продукты <br> и наивысшие качество!</h3>
+                        <p>Да, мы не обещаем вам супер скидок и мега бонусов, просто у нас и так лучшие 
+                        цены и наилучшее качество продукцуии! Зaказжите у нас и вы останете нашим постоянным 
+                        покупателем - это мы обещаем :) </p>
+                    </div>
+
+                    <div class="greeting_call_me">
+                        <input name="phone" required placeholder="Ваш телефон">
+                        <img src="icons/call.svg" alt="call">                              
+                        <button class="btn_red">Позвоните мне</button>
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+    </section>
+
+    <section class="second">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="products_title col-5">
+                    <h3>Продукция i-Crab</h3>
+                </div>
+                <div class="products_title_info col-5">
+                    Прямо здесь вы можете заказать следующую продукцию:
+                </div>
+            </div>
+
+            <div class="row justify-content-around">
+                <div class="main_product col-2">
+                   <a href="#"><img src="img/Products/crab.png" alt="crab" class="product_item"><p>Краб и крабовое мясо</p></a>
+                </div>
+                <div class="main_product col-2">
+                    <a href="#"><img src="img/Products/caviar.png" alt="crab" class="product_item"><p>Красная икра</p></a>
+                 </div>
+                 <div class="main_product col-2">
+                    <a href="#"><img src="img/Products/shrimp.png" alt="crab" class="product_item"><p>Свежие и мороженные креветки</p></a>
+                 </div>
+                 <div class="main_product col-2">
+                    <a href="#"><img src="img/Products/fish.png" alt="crab" class="product_item"><p>Соленая красная рыба</p></a>
+                 </div>
+                 <div class="main_product col-2">
+                    <a href="#"><img src="img/Products/seafood.png" alt="crab" class="product_item"><p>Рыба и другие морепродукты</p></a>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="third">
+        <div class="container">
+            <div class="row">
+               <div class="col-12">
+                <div class="reasons">
+
+                    <div class="col-3">
+                        <div class="reasons_title">
+                            <h2>Предлагаем только лучшее качество.</h2>
+                            <span>вот почему:</span> 
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="reason_block">
+                            <div class="reason_block_icon"> <img src="icons/red_fish.svg" alt="red_fish"> </div>
+                            <div class="reason_block_title">Закупка продукции</div>
+                            <div class="reason_block_desc">Закупка продукции осуществляется напрямую у промысловых компаний, 
+                            сразу по приходу продукции в порты Владивостока, минуя посредников и склады хранения.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="reason_block">
+                            <div class="reason_block_icon"> <img src="icons/qa.svg" alt="qa"> </div>
+                            <div class="reason_block_title">Контроль качества продукции</div>
+                            <div class="reason_block_desc">Вся продукция проходит контроль качества во время 
+                                закупки и перед продажей</div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="reason_block">
+                            <div class="reason_block_icon"> <img src="icons/package.svg" alt="package"> </div>
+                            <div class="reason_block_title">Упаковка продукции</div>
+                            <div class="reason_block_desc">ВПродукция упакована в герметичную упаковку, поэтому она отлично
+                                хранится и после вскрытия пахнет морем. Хранение осуществляется на современном 
+                                складском холодильном комплексе.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="reason_block">
+                            <div class="reason_block_icon"> <img src="icons/delivery.svg" alt="delivery"> </div>
+                            <div class="reason_block_title">Контроль качества продукции</div>
+                            <div class="reason_block_desc">Вся продукция проходит контроль качества во время закупки и перед продажей</div>
+                        </div>
+                    </div>
+
+                </div>
+
+               </div> 
+            </div>
+        </div>
     </section>
 
 
 
-
-    <div class="container">
+    <div class="container tech">
         <div class="row">
             <div class="b1 col-1">блок 1</div>
             <div class="b2 col-1">блок 2</div>
